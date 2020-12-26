@@ -1,0 +1,5 @@
+#yarn init -y
+configurar scripts in package.json
+#yarn add nodemon -D
+#yarn add knex mssql express
+#
