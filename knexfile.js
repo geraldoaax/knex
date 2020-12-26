@@ -7,13 +7,16 @@ module.exports = {
     connection: {
       database: 'knex',
       user: 'sa',
-      password: 'instale502'
+      password: 'instale502',
+      server: 'GERALDO-DESK'
     },
     migrations: {
       tableName: 'knex_migrations',
       directory: `${__dirname}/src/database/migrations`
+    },
+    seeds: {
+      directory: `${__dirname}/src/database/seeds`
     }
-  },
-
+  }
 
 };

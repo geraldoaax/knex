@@ -5,4 +5,7 @@ configurar scripts in package.json
 #npx knex init
 #npx knex migrate:make migration_name
 #npx knex migrate:make create_table_users => descreve a migration
-Alterar a pasta migration para o database em knexfile.js
+Alterar a pasta migration/seed para o database em knexfile.js
+#npx knex migrate:latest => rodar a ultima migração 
+#npx knex seed:make 001_users --> criar arquivo seed
+#npx knex seed:run => roda o ultimo seed
