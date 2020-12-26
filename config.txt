@@ -2,4 +2,7 @@
 configurar scripts in package.json
 #yarn add nodemon -D
 #yarn add knex mssql express
-#
+#npx knex init
+#npx knex migrate:make migration_name
+#npx knex migrate:make create_table_users => descreve a migration
+Alterar a pasta migration para o database em knexfile.js
