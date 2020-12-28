@@ -11,5 +11,5 @@ Alterar a pasta migration/seed para o database em knexfile.js
 #npx knex seed:run => roda o ultimo seed
 #npx knex migrate:make create_table_projects
 #npx knex migrate:latest => rodar a ultima migração
-#npx knex seed:make 001_projects --> criar arquivo seed
-#npx knex seed:run => roda o ultimo seed
+#npx knex seed:make 002_projects --> criar arquivo seed
+#npx knex seed:run --specific 001_projects.js  => roda o ultimo seed projetos especifico
